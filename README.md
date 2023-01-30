@@ -7,13 +7,13 @@
 
 **Don't** be so prideful that you that you don't *ask for help*
 
-A #RRGGBB growth mindset #RRGGBB is keeping a positive outlook on learning in general.
+A 	#0969DA growth mindset is keeping a positive outlook on learning in general.
 It's making every experience a learing experience. It's not allowing yourself to get 
 discouraged based on what other people are doing. Just remember everyone is starting in different 
 places so keep that in mind when you feel like you are struggling. When theses momentents arise 
 *take a break and collect yourself*. Go outside, do something fun, hangout with friends then comeback and try again.
 It's very important to give your brain a break and not let frustration get to you.
-Frustration can 
+
 >A few modern philosophers assert that an individual’s intelligence is a fixed
 quantity, a quantity which cannot be increased. We must protest and react
 against this brutal pessimism... With practice, training, and above all,
