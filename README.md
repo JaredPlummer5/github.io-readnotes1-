@@ -20,7 +20,7 @@ against this brutal pessimism... With practice, training, and above all,
 method, we manage to increase our attention, our memory, our judgement
 and literally to become more intelligent than we were before. ~ALFRED BINET
 
-!This is an image](https://www.learningsciences.com/wp-content/uploads/2021/09/growth-mindset.jpg)
+![This is an image](https://www.learningsciences.com/wp-content/uploads/2021/09/growth-mindset.jpg)
 
 
 Here's the Growth Mindset [Growth Mindset](https://github.com/JaredPlummer5/github.io-readnotes1-/).
