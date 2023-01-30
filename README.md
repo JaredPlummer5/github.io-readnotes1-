@@ -25,3 +25,9 @@ and literally to become more intelligent than we were before. ~ALFRED BINET
 
 
 Hi I'm Jared Plummer and here's my [GitHub page](https://github.com/JaredPlummer5).
+
+## Markdown
+
+### What is Markdown?
+
+Markdown is basically a simplier version of HTML
