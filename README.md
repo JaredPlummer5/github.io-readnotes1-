@@ -1,11 +1,11 @@
 # Growth Mindset
-*Never* compare yourself to others becasue you might be starting at a different spot than them
+**Never** compare yourself to others becasue you might be starting at a different spot than them
 
-*Always* remember to give your brain a break
+**Always** remember to give your brain a break
 
-*Failure* is something to be prepared for and grow from
+**Failure** is something to be prepared for and grow from
 
-*Don't* be so prideful that you that you don't **ask for help**
+**Don't** be so prideful that you that you don't *ask for help*
 
 >A few modern philosophers assert that an individual’s intelligence is a fixed
 quantity, a quantity which cannot be increased. We must protest and react
