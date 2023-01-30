@@ -7,7 +7,7 @@
 
 **Don't** be so prideful that you that you don't *ask for help*
 
-A 	#0969DA growth mindset is keeping a positive outlook on learning in general.
+A 	#0969DA growth mindset #0969DA is keeping a positive outlook on learning in general.
 It's making every experience a learing experience. It's not allowing yourself to get 
 discouraged based on what other people are doing. Just remember everyone is starting in different 
 places so keep that in mind when you feel like you are struggling. When theses momentents arise 
