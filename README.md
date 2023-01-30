@@ -79,5 +79,5 @@ You can make the text anything you want and the text will show up as the url lin
 - Footnotes 
 
 
-[Home Page](
+[Home Page](https://github.com/JaredPlummer5/github.io-readnotes1-/blob/main/TableOfContents.md)
 
