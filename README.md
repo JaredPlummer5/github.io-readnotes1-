@@ -24,4 +24,4 @@ and literally to become more intelligent than we were before. ~ALFRED BINET
 ![This is an image](https://www.learningsciences.com/wp-content/uploads/2021/09/growth-mindset.jpg)
 
 
-Hi I'm Jared Plummer and here's my [GitHub page](https://github.com/JaredPlummer5/github.io).
+Hi I'm Jared Plummer and here's my [GitHub page](https://github.com/JaredPlummer5).
