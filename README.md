@@ -1,1 +1,1 @@
-#Growth Mindset
+# Growth Mindset
