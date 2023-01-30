@@ -45,7 +45,7 @@ See examples below.
 
 `** **` = Bold
 
-'* *` = italics
+`* *` = italics
 
 `~ ~` = Strikthrough
 
@@ -58,16 +58,13 @@ See examples below.
 `<sup> </sup>` = smaller subscript
 
 
-
-Insert Text
-
-insert text here
-
 Moving on to images. Images can really pull a website together and with Markdown we can pull images from all over the internet.
 
 The syntax for an image would be *an exclamation mark then square brackets with text inbetween and then round brackets with the url link inbetween.
 
 You can make the text anything you want and the text will show up as the url link on your website.
+
+`![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)`
 
 And then we learned how to link a url link and attach it to our website.
 
