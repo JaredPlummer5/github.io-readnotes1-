@@ -72,4 +72,6 @@ The code for that would be square brackets with text inbetween and then round br
 
 You can make the text anything you want and the text will show up as the url link on your website.
 
-The link to my portfolio down below is a perfect example of what it should look like.
+
+
+
