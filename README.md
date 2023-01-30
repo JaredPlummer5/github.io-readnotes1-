@@ -53,9 +53,9 @@ See examples below.
 
 `*** ***` = Bold and italics
 
-<sub> </sub> = Subscript
+`<sub> </sub>` = Subscript
 
-<sup> </sup> = smaller subscript
+`<sup> </sup>` = smaller subscript
 
 
 
