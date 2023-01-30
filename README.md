@@ -44,11 +44,17 @@ Markdown is also capable of showcasing bold, italized, and a combination of the 
 See examples below.
 
 `** **` = Bold
+
 '* *` = italics
+
 `~ ~` = Strikthrough
+
 `** ** and __ __` = Bold and nested italics
+
 `*** ***` = Bold and italics
+
 <sub> </sub> = Subscript
+
 <sup> </sup> = smaller subscript
 
 
