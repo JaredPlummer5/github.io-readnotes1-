@@ -73,5 +73,9 @@ The code for that would be square brackets with text inbetween and then round br
 You can make the text anything you want and the text will show up as the url link on your website.
 
 
+### Thing I want to learn about
+
+- Emojis 
+- Footnotes 
 
 
