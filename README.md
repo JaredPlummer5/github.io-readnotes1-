@@ -6,13 +6,13 @@ Hi! My name is Jared Plummer. I know a little HTML, CSS, and JavaScript. I'm fro
 
 ## 102 Reading Notes
 
-[Class 1](/102-reading-notes/Class1.md)
+[Class 1](/102-reading-notes/Class01/Class1.md)
 
-[Class 2](/102-reading-notes/Class2.md)
+[Class 2](102-reading-notes/Class02/Class2.md)
 
-[Class 3](/102-reading-notes/Class3.md)
+[Class 3](102-reading-notes/Class03/README.md)
 
-[Class 4](/102-reading-notes/Class4.md)
+[Class 4](102-reading-notes/CLass04/README.md)
 
 [Class 5](/102-reading-notes/Class5.md)
 
