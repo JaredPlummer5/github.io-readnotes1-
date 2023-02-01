@@ -1,8 +1,12 @@
 # Table Of Contents
 
+## Introduction
+
+Hi! My name is Jared Plummer. I know a little HTML, CSS, and JavaScript. I'm from Memphis and I play 2 instruments. I am excited to learn with all of you.
+
 ## 102 Reading Notes
 
-[Class 1](102-reading-notes/Class1.md)
+[Class 1](/102-reading-notes/Class1.md)
 
 [Class 2](/102-reading-notes/Class2.md)
 
