@@ -59,4 +59,9 @@ To sumarize an element may contain a data item or a chunk of text or an image, o
 
 [HTML_Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
 
+
+Thing I want to learn about:
+
+- How to make a functioning website with HTML 
+
 [Back to home page](../README.md)
