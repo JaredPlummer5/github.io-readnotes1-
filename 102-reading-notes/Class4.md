@@ -20,7 +20,6 @@ Semantics refers to the meaning of a piece of code — for example "what effect 
 
 In HTML, for example, the `<h1>` element is a semantic element, which gives the text it wraps around the role (or meaning) of "a top level heading on your page."
 
-
 List of Semantics in HTML:
 
 - `<article>`
@@ -53,15 +52,90 @@ Some semantic element can be found in the link below:
 
 [Semantics](https://developer.mozilla.org/en-US/docs/Glossary/Semantics)
 
-## HTML Elements:
+## HTML Elements
 
 To sumarize an element may contain a data item or a chunk of text or an image, or perhaps nothing. A typical element includes an opening tag with some attributes, enclosed text content, and a closing tag. There are a lot of HTML elements. All elements can be found in the link below:
 
 [HTML_Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
 
+## Basic things You need to know
+
+### Headings
+
+`<h1>My main title</h1>`
+
+`<h2>My top level heading</h2>`
+
+`<h3>My subheading</h3>`
+
+`<h4>My sub-subheading</h4>`
+
+`<h5>My sub-sub-subheading</h5>`
+
+`<h6>My sub-sub-sub-subheading</h6>`
+
+Heading elements allow you to specify that certain parts of your content are headings — or subheadings.
+HTML contains 6 heading levels, `<h1> - <h6>`
+
+### Paragragh
+
+As explained above, `<p>` elements are for containing paragraphs of text; you'll use these frequently when marking up regular text content:
+
+`<p>This is a single paragraph</p>`
+
+### List
+
+Marking up lists always consists of at least 2 elements. The most common list types are ordered and unordered lists:
+
+1. Unordered lists are for lists where the order of the items doesn't matter, such as a shopping list. These are wrapped in a `<ul>` element.
+
+2. Ordered lists are for lists where the order of the items does matter, such as a recipe. These are wrapped in an `<ol>` element.
+
+Each item inside the lists is put inside an `<li>` (list item) element.
+
+`<p>At Mozilla, we're a global community of</p>`
+
+`<ul>`
+
+ `<li>technologists</li>`
+
+ `<li>thinkers</li>`
+
+ `<li>builders</li>`
+
+`</ul>`
+
+`<p>working together…</p>`
+
+### Links
+
+To add a link, we need to use a simple element — `<a> `— "a" being the short form for "anchor".
+
+1. Choose some text. We chose the text "Mozilla Manifesto".
+
+2. Wrap the text in an `<a>` element, as shown below:
+
+`<a>Mozilla Manifesto</a>`
+
+Copy to Clipboard
+
+Give the `<a>` element an href attribute, as shown below:
+
+`<a href="">Mozilla Manifesto</a>`
+
+Copy to Clipboard
+
+Fill in the value of this attribute with the web address that you want the link to:
+
+`<a href="https://www.mozilla.org/en-US/about/manifesto/">Mozilla Manifesto</a>`
+
+
+
+
+Copy to Clipboard
 
 Thing I want to learn about:
 
-- How to make a functioning website with HTML 
+- How to make a functioning website with HTML
 
 [Back to home page](../README.md)
