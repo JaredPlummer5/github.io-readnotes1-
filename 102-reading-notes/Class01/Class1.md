@@ -75,10 +75,8 @@ You can make the text anything you want and the text will show up as the url lin
 
 ### Thing I want to learn about
 
-- Emojis 
-- Footnotes 
+- Emojis
+- Footnotes
 
 
 [Back to home page](../../README.md)
-
-README.md
