@@ -6,6 +6,8 @@ Hi! My name is Jared Plummer. I know a little HTML, CSS, and JavaScript. I'm fro
 
 ## 102 Reading Notes
 
+[102](102-reading-notes/README.md)
+
 [Class 1](/102-reading-notes/Class01/Class1.md)
 
 [Class 2](102-reading-notes/Class02/Class2.md)
@@ -23,6 +25,8 @@ Hi! My name is Jared Plummer. I know a little HTML, CSS, and JavaScript. I'm fro
 [Class 8](/102-reading-notes/Class8.md)
 
 ## 201
+
+
 
 [Class 1](201/Class1.md)
 
