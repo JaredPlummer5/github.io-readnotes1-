@@ -40,6 +40,12 @@ Function parameters are listed inside the parentheses () in the function definit
 
 Function arguments are the values received by the function when it is invoked.
 
+Js is defined with the function keyword, follow by name, followed by paraentheses().
+
+`function nameFunction()`
+
+Functions names can be anything and the same thing applies to variables.
+
 #### Function Invocation
 
 
@@ -129,6 +135,69 @@ You can use the function directly, as a variable value:
 `}`
 
 In the code above the parameter, 'fahrenheit', became equal to the parameter in the function `to Celsius`
+## For loop
+
+Syntax:
+
+`for (statement 1; statement 2; statement 3) {`
+
+  `execute code block`
+
+`}`
+
+- Statement 1 is executed once before the code block is run.
+
+- Statement 2 defines the condition needed to execute the code block.
+
+- Statement 3 is executed every time the code block is run.
+
+Example of real code
+
+`for (let i = 0; i < 10; i++) {`
+
+ `console.log(i);`
+
+`}`
+
+- This loop will print numbers 0-9, will stop when condition is met (i = 10)
+
+- Statement 1 sets the variable for the loop (let i = 0).
+
+- Statement 2 sets the loop condition (i < 10).
+
+- Statement 3 increases the value of i (i++) each time the code block is run.
+
+- This loop will print numbers 0-9, will stop when condition is met (i = 10)
+
+### While loop
+
+Syntax
+
+`while (condition) {`
+
+  `execute code block`
+
+`}`
+
+- The code block will continue to loop as long as the condition is true.
+
+Example of real code:
+
+`let i = 0;`
+
+`while (i < 5) {`
+
+  `console.log(i);`
+
+  `i++;`
+
+`}`
+
+This loop will print number 0-4, will stop when condition becomes false (i >=5)
+
+For the above example, the syntax is as follows:
+
+The code block will continue to run as long as the variable (i) is less than 5.
 
 # Operators
 
