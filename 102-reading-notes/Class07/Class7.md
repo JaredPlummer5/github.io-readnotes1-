@@ -135,69 +135,6 @@ You can use the function directly, as a variable value:
 `}`
 
 In the code above the parameter, 'fahrenheit', became equal to the parameter in the function `to Celsius`
-## For loop
-
-Syntax:
-
-`for (statement 1; statement 2; statement 3) {`
-
-  `execute code block`
-
-`}`
-
-- Statement 1 is executed once before the code block is run.
-
-- Statement 2 defines the condition needed to execute the code block.
-
-- Statement 3 is executed every time the code block is run.
-
-Example of real code
-
-`for (let i = 0; i < 10; i++) {`
-
- `console.log(i);`
-
-`}`
-
-- This loop will print numbers 0-9, will stop when condition is met (i = 10)
-
-- Statement 1 sets the variable for the loop (let i = 0).
-
-- Statement 2 sets the loop condition (i < 10).
-
-- Statement 3 increases the value of i (i++) each time the code block is run.
-
-- This loop will print numbers 0-9, will stop when condition is met (i = 10)
-
-### While loop
-
-Syntax
-
-`while (condition) {`
-
-  `execute code block`
-
-`}`
-
-- The code block will continue to loop as long as the condition is true.
-
-Example of real code:
-
-`let i = 0;`
-
-`while (i < 5) {`
-
-  `console.log(i);`
-
-  `i++;`
-
-`}`
-
-This loop will print number 0-4, will stop when condition becomes false (i >=5)
-
-For the above example, the syntax is as follows:
-
-The code block will continue to run as long as the variable (i) is less than 5.
 
 # Operators
 
@@ -219,27 +156,15 @@ used to perform arithmetic on numbers
 
 `let x = (100 + 50) * a;`
 
-![Chart](ArthmeticOperators.png)
-
-## Assignment Operators
-
-assign values to JavaScript variables.
-
-
-![Chart](AssignmentChart.png)
-
-
-## Comparison Operators
-
-![Chart](ComparisonOperator.png)
+![Chart](Charts/ArthmeticOperators.png)
 
 ## Logical Operators
 
-![Logical Chart](LogicalOperator.png)
+![Logical Chart](Charts/LogicalOperator.png)
 
 ## Type Operators
 
-![Type Operators](TypeOperators.png)
+![Type Operators](Charts/TypeOperators.png)
 
 
 ## Conditional Operators
@@ -389,6 +314,12 @@ where `propNameOrNumber` is a string, numeric, or symbol expression representing
 
 
 ### [Relational Operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#relational_operators)
+
+Thing I want to learn about are... 
+
+- how to implement all of the Reational operators 
+
+- Benfits of using bitwise operators
 
 
 [Back to home page](../../README.md)
