@@ -227,11 +227,32 @@ For targeting one section name the variable something different and replace the 
 
 `}`
 
-## Summary:
+
 
 `.` = targets a class you made up
 
 `#` = targets one varible youy made up
+
+## In practice: 
+
+![Nav Setup](NavSetup.png)
+
+Above is a picture of your code in new-hello-world folder. You need to assign each separate link or text a div and then give the div a class.
+
+![CssSetup](CssSetup.png)
+
+Then make a nav block and type what's in the brakets.
+
+Then type `.nameofClass`
+to target the portions of code you assigned it to in HTML.
+
+Results:
+
+![Results](Result.png)
+
+The code below is a better way to align certain code. It called `display:flex` and the `justify-content: space-evenly`(you can change the positions by type `space-end`, space-start`, ect.). This will make sure your website rendeners things in a row. 
+
+![In a line](WaytoputNavinaRow.png)
 
 ## Things I want to learn:
 
