@@ -252,6 +252,8 @@ Results:
 
 The code below is a better way to align certain code. It called `display:flex` and the `justify-content: space-evenly`(you can change the positions by type `space-end`, space-start`, ect.). This will make sure your website rendeners things in a row. 
 
+This function need a parent tag so it can't be by itself when used.
+
 ![In a line](WaytoputNavinaRow.png)
 
 ## Things I want to learn:
