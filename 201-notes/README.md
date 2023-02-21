@@ -1,9 +1,9 @@
 
 # 201-notes
 
-[Class 1](201/Class1.md)
+[Class 1](Class1/Class01.md)
 
-[Classs 2](201/Class2.md)
+[Classs 2](Class2)
 
 [Classs 3](201/Class3.md)
 
