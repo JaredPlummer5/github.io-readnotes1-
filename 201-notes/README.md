@@ -3,15 +3,15 @@
 
 [Class 1](Class1/Class01.md)
 
-[Classs 2](Class2)
+[Classs 2](Class2/Class-02.md)
 
-[Classs 3](201/Class3.md)
-
-
-[Classs 4](201/Class4.md)
+[Classs 3](Class3/Class-03.md)
 
 
-[Classs 5](201/Class5.md)
+[Classs 4](Class4/Class4.md)
+
+
+[Classs 5](Class05/Class5.md)
 
 
 [Classs 6](201/Class6.md)
