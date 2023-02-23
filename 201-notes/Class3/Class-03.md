@@ -7,15 +7,15 @@ The `<ul>` HTML element represents an unordered list of items, typically rendere
 
 The `<ul>`element is for grouping a collection of items that do not have a numerical ordering, and their order in the list is meaningless.
 
-![unordered List](unorderedList.png)
+![unordered List](picsForNotes/unorderedList.png)
 
-![Ordered list inside a Ordered List](OLinsideUL.png)
+![Ordered list inside a Ordered List](picsForNotes/OLinsideUL.png)
 
 ## Bullet Style
 
 The list-style-type CSS property sets the marker (such as a disc, character, or custom counter style) of a list item element.
 
-![List Sytle](liststyles.png)
+![List Sytle](picsForNotes/liststyles.png)
 
 ## Order Vs Unordered
 
@@ -23,21 +23,21 @@ Ordered List render in numerical order and an unordered list of items, typically
 
 ## Ways to change the numbers on list items provided by an ordered list
 
-![Styling the Ordered list](styleOrderedList.png)
+![Styling the Ordered list](picsForNotes/styleOrderedList.png)
 
-![Roman Numerals](romanNumeralsOL.png)
+![Roman Numerals](picsForNotes/romanNumeralsOL.png)
 
-![Starting Number](startingNumberOL.png)
+![Starting Number](picsForNotes/startingNumberOL.png)
 
 # CSS
 
 ## Margin and Padding
 
-![Parts](PartsOfABox.png)
+![Parts](picsForNotes/PartsOfABox.png)
 
 ## Box model
 
-![Box Model](BoxModel.png)
+![Box Model](picsForNotes/BoxModel.png)
 
 ## The Box Model Story
 
@@ -63,25 +63,25 @@ Arrays are generally described as "list-like objects"; they are basically single
 
 ### All about Arrays
 
-![Creating Arrays](CreatingArrays.png)
-![Length of an Array](LengthOfArrays.png)
+![Creating Arrays](picsForNotes/CreatingArrays.png)
+![Length of an Array](picsForNotes/LengthOfArrays.png)
 
 ## People array
 
-![Accessing more than One Array](AccessingMoreThanOne.png)
+![Accessing more than One Array](picsForNotes/AccessingMoreThanOne.png)
 
 In the example above you can access the arrays by console.log the array with it's own index number then accessing the index number within that array.
 
 ## Five shorthand operators
 
-![Short hand operators](shortHandOperator.png)
+![Short hand operators](picsForNotes/shortHandOperator.png)
 
 ## last expression
 
 True has a value of 1 and false has a value of 0
 so when you add the values together it results to 10dog
 
-![10dog](10dog.png)
+![10dog](picsForNotes/10dog.png)
 
 ## Real world example of when a conditional statement
 
