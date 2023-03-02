@@ -100,9 +100,9 @@ In summary, parameters are variables defined in the function signature, while ar
 
 Pair programming commonly involves two roles: the Driver and the Navigator
 
-The Driver is the programmer who is typing and the only one whose hands are on the keyboard. Handling the “mechanics” of coding, the Driver manages the text editor, switching files, version control, and—of course writing—code. 
+The Driver is the programmer who is typing and the only one whose hands are on the keyboard. Handling the “mechanics” of coding, the Driver manages the text editor, switching files, version control, and—of course writing—code.
 
-The Navigator uses their words to guide the Driver but does not provide any direct input to the computer. 
+The Navigator uses their words to guide the Driver but does not provide any direct input to the computer.
 
 Four fundamental skills that help anyone learn a new language:
 
