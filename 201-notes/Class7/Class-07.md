@@ -124,4 +124,8 @@ By using inheritance, we were able to create a new object that borrows the basic
 
 So, in summary: prototypes in JavaScript are like templates for objects, while inheritance allows objects to borrow and extend the properties and behaviors of other objects. Just as you might have a variety of washing machines with different capabilities in your coin laundry business, a JavaScript program might have a variety of objects with different properties and behaviors, all built on top of prototypes and inheritance.
 
+## Objects Literals & Prototypes
 
+If a member of a object is a function it is refered to as a method.
+
+When an object has 1 or more methods it is called a behavior.
