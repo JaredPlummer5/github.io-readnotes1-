@@ -20,7 +20,7 @@
 [Classs 7](Class7/Class-07.md)
 
 
-[Classs 8](201/Class-08.md)
+[Classs 8](Class8/Class-08.md)
 
 
 [Classs 9](201/Class-09.md)
