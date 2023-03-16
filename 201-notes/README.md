@@ -29,7 +29,7 @@
 [Classs 10](Class10/Class-10.md)
 
 
-[Classs 11](201/Class-11.md)
+[Classs 11](Class11/Class-11.md)
 
 
 [Classs 12](201/Class-12.md)
