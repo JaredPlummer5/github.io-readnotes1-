@@ -26,7 +26,7 @@
 
 - Clear all items: localStorage.clear().
 
-![201-notes/Class13/BasicOperations1](201-notes/Class13/BasicOperations1.png)
+![201-notes/Class13/BasicOperations1](BasicOperations1.png)
 
 ## Event:
 
