@@ -32,10 +32,10 @@
 [Classs 11](Class11/Class-11.md)
 
 
-[Classs 12](201/Class-12.md)
+[Classs 12](Class12/Class-12.md)
 
 
-[Classs 13](201/Class-13.md)
+[Classs 13](Class13/Class-13.md)
 
 
 [Classs 14](201/Class-14.md)
