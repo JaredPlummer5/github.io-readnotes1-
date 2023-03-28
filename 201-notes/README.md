@@ -1,7 +1,7 @@
 
 # 201-notes
 
-[Class 1](Class1/Class01.md)
+[Class 1](Class1/Class-01.md)
 
 [Classs 2](Class2/Class-02.md)
 
