@@ -4,7 +4,7 @@
 
 Hi! My name is Jared Plummer. I know a little HTML, CSS, and JavaScript. I'm from Memphis and I play 2 instruments. I am excited to learn with all of you.
 
-## Description:
+## Description
 
 This website was made to help me and others who chose to use it , understand nthe many concepts of software development. This website is a study resource tool to help me understand HTML, CSS, Javascript, and ect...
 
@@ -25,3 +25,15 @@ This website was made to help me and others who chose to use it , understand nth
 ## Code 401 - Advanced Software Development
 
 [401-notes](401-notes/README.md)
+
+<style>
+  
+body {
+background: linear-gradient(to right, #7F5A83, #7F5A83 50%, #78A1BB 50%, #78A1BB);
+}
+p, h1, h2, h3, h4{
+    font-family: cursive;
+}
+
+
+</style>
