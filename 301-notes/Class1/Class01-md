@@ -1,0 +1,45 @@
+# Introduction to React and Components
+
+## What is a “component”?
+
+A component is a modular and self-contained unit of software that encapsulates its own functionality and can be deployed and managed independently. A component has well-defined interfaces that specify its inputs and outputs, allowing it to be integrated with other components to create a complete system.
+
+### Characteristics
+
+- Encapsulation: Components encapsulate their functionality and do not expose their internal workings to other components.
+
+- Modularity: Components are designed to be independent and self-contained, with well-defined inputs and outputs.
+
+- Reusability: Components are designed to be reusable across multiple projects and systems, reducing development time and cost.
+
+- Composability: Components can be combined and assembled in different configurations to create a complete system.
+
+## Component-Based Architecture (CBA)
+
+CBA is a software architecture pattern that emphasizes the decomposition of a system into reusable and interchangeable components.
+
+CBA offers several advantages over other architecture patterns, including:
+
+- Reusability: Components can be reused across multiple projects and systems, reducing development time and cost.
+
+- Scalability: Components can be added or removed as needed to adjust the system's capacity and performance.
+
+- Modularity: Components can be developed, tested, and deployed independently, allowing for faster and more efficient development.
+
+- Interoperability: Components can be developed in different programming languages and run on different platforms, enabling better integration with other systems.
+
+## Props
+
+## What are props and what is “props” short for?
+
+In React, you can create components that represent different parts of your user interface, like buttons, forms, or even entire pages. These components can be reused throughout your app to make it easier to build and maintain.
+
+Props stand for properties which is an object to pass data using components
+
+## How are props used in React?
+
+Props are used as parameters in functions and they are used as objects
+
+## What is the flow of props?
+
+Props are uni-directional which means they only flow one way.

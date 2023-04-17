@@ -30,10 +30,22 @@ This website was made to help me and others who chose to use it , understand nth
   
 body {
 background: linear-gradient(to right, #7F5A83, #7F5A83 50%, #78A1BB 50%, #78A1BB);
+display:flex;
+justify-content: center;
 }
 p, h1, h2, h3, h4{
     font-family: cursive;
+
 }
 
+h1{
+display:flex;
+justify-content: center;
+}
+
+h2 + p {
+    display:flex;
+justify-content: center;
+}
 
 </style>
