@@ -88,7 +88,7 @@ Identify the component that owns or is responsible for changing the minimal stat
 
 In the previous step, you found two pieces of state in this application: the search input text, and the value of the checkbox. In this example, they always appear together, so it makes sense to put them into the same place.
 
-### Step 5 Add inverse data flow 
+### Step 5 Add inverse data flow
 
 Currently your app renders correctly with props and state flowing down the hierarchy. But to change the state according to user input, you will need to support data flowing the other way
 
@@ -192,3 +192,65 @@ Identify all the components that render something based on that state.
 Find a common owner component (a single component above all the components that need the state in the hierarchy).
 Either the common owner or another component higher up in the hierarchy should own the state.
 If you can't find a component where it makes sense to own the state, create a new component solely for holding the state and add it somewhere in the hierarchy above the common owner component.
+
+### What is a “higher-order function”?
+
+A "higher-order function" is a function that either takes one or more functions as arguments, or returns a function as its result, or both. Higher-order functions are powerful constructs in functional programming, as they allow you to abstract over actions and create more reusable and modular code.
+
+In the given link, the greaterThan function is defined as follows:
+
+```
+
+function greaterThan(n) {
+  return m => m > n;
+}
+
+```
+
+#### Explore the greaterThan function as defined in the reading. In your own words, what is line 2 of this function doing?
+
+In line 2 of this `function (return m => m > n;)`, it returns an anonymous arrow function that takes a single argument m. This arrow function checks whether m is greater than n, where n is the argument passed to the outer greaterThan function. In other words, the greaterThan function generates and returns a new function that can be used to compare any given number m to the number n provided initially.
+
+Regarding higher-order functions, let's explore how the map function operates:
+
+map is a higher-order function that takes two arguments: a function (usually a transforming function) and an array. It applies the given function to each element of the array and returns a new array containing the results. This is a powerful way to create a new array by transforming each element in the original array without modifying the original array itself.
+
+Here's a simple example of using map:
+
+```
+
+function square(x) {
+  return x * x;
+}
+
+const numbers = [1, 2, 3, 4, 5];
+const squaredNumbers = numbers.map(square);
+
+console.log(squaredNumbers); // Output: [1, 4, 9, 16, 25]
+
+```
+
+In this example, the square function is passed as an argument to the map function. The map function then applies the square function to each element of the numbers array and creates a new array called squaredNumbers containing the squared values of the original elements. The map function is a higher-order function because it takes a function (in this case, square) as an argument.
+
+### Explain how either map or reduce operates, with regards to higher-order functions
+
+reduce is another higher-order function that operates on arrays. It takes a function (called a reducer function) and an array as arguments, along with an optional initial value. The purpose of reduce is to accumulate a single value by applying the reducer function to each element of the array, in order. The reducer function takes two arguments: the accumulator and the current element.
+
+Here's an example of using reduce to sum the elements of an array:
+
+```
+
+function sum(acc, curr) {
+  return acc + curr;
+}
+
+const numbers = [1, 2, 3, 4, 5];
+const total = numbers.reduce(sum, 0);
+
+console.log(total); // Output: 15
+
+```
+
+In this example, the sum function is the reducer function that is passed as an argument to the reduce function. The reduce function then applies the sum function to each element of the numbers array, while maintaining an accumulator value (acc). The sum function takes the accumulator and the current element (curr) and returns their sum, which becomes the new accumulator value. The process repeats until all elements of the array have been processed. In this case, the final accumulator value is the sum of all elements in the array.
+
+In both map and reduce, we can observe the higher-order function pattern, as they both take functions as arguments and use those functions to perform operations on the elements of an array. These higher-order functions allow for powerful abstractions and code reusability, as the logic for applying a function to array elements is separated from the actual function being applied.
