@@ -134,7 +134,7 @@ In this way, the ISBN serves as a unique identifier for each book resource, maki
 
     Coding example:
 
-    ```
+    ```get
 
     app.get('/books/:id', (req, res) => {
      const id = req.params.id;
@@ -151,25 +151,24 @@ In this way, the ISBN serves as a unique identifier for each book resource, maki
 
 2. POST
 
-- The POST method is used to send data to the server to create a new resource. It is not idempotent, which means that calling it multiple times can create multiple resources.
+    - The POST method is used to send data to the server to create a new resource. It is not idempotent, which means that calling it multiple times can create multiple resources.
 
-Example usage:
+    Example usage:
 
-    ```
-
+    ```post
     POST /books
     {
-      "title": "The Hitchhiker's Guide to the Galaxy",
-      "author": "Douglas Adams"
+        "title": "The Hitchhiker's Guide to the Galaxy",
+        "author": "Douglas Adams"
     }
 
-    ```
+        ```
 
-    This request creates a new book resource with the given title and author on the server.
+        This request creates a new book resource with the given title and author on the server.
 
-    Coding example:
+        Coding example:
 
-    ```
+        ```
 
     app.post('/books', (req, res) => {
       const newBook = req.body;
@@ -181,26 +180,24 @@ Example usage:
 
     ```
 
-    3. PUT:
+3. PUT:
 
     - The PUT method is used to send data to the server to update an existing resource. It is idempotent, which means that calling it multiple times with the same data has the same effect as calling it once.
 
     Example usage:
 
-    ```
-    PUT /books/123
+    ``` PUT /books/123
     {
     "title": "The Hitchhiker's Guide to the Galaxy",
     "author": "Douglas Adams"
     }
-
-
     ```
+
     This request updates the book with ID 123 on the server with the given title and author.
 
     Coding example:
 
-```
+    ```l
 
     app.put('/books/:id', (req, res) => {
     const id = req.params.id;
@@ -217,12 +214,12 @@ Example usage:
     }
     });
 
-```
+    ```
 
-    4. DELETE:
+4. DELETE:
 
-    - The DELETE method is used to delete a resource from the server. It is idempotent, which means that calling it multiple times has the same effect as calling it once.
-    
+- The DELETE method is used to delete a resource from the server. It is idempotent, which means that calling it multiple times has the same effect as calling it once.
+
     Example usage:
 
     `DELETE /books/123`
@@ -231,15 +228,23 @@ Example usage:
 
     Coding example:
 
-    ```
+    ```l
     app.delete('/books/:id', (req, res) => {
+
     const id = req.params.id;
+
     // Look up the book with the given ID in the database
+
     const index = db.findIndex(book => book.id === id);
+
     if (index !== -1) {
+
     // Remove the book with the given ID from the database
+
     db.splice(index, 1);
+
     // Send a response with a message indicating that the book was deleted
+
     res.send('Book deleted successfully');
     }
     })
@@ -252,7 +257,7 @@ URIs (Uniform Resource Identifiers) in a REST API should be based on the resourc
 
 The URI should identify the resource uniquely and should be hierarchical in nature. For example, consider a REST API that provides access to a collection of books. The URI for retrieving a specific book might look like this:
 
-```
+```GET
 GET /books/123
 ```
 
@@ -262,11 +267,11 @@ The URI should also be designed in a way that is intuitive and easy to understan
 
 Overall, the URI should be based on the resources that the API provides access to and should be designed in a way that makes it easy for clients to understand and use the API.
 
-## Give an example of a good URI.
+## Give an example of a good URI
 
 Here's an example of a good URI and an explanation of what it is doing:
 
-```
+```Get
 GET /books/123/chapters/5
 ```
 
@@ -314,7 +319,7 @@ Example:
 
 Here's an example of a simple Express route handler that returns a 200 status code for a successful GET request:
 
-```
+```get
 app.get('/books/:id', (req, res) => {
   const bookId = req.params.id;
   
@@ -351,14 +356,13 @@ An unsuccessful GET request can return different HTTP status codes depending on 
 
 In general, an unsuccessful GET request should return a status code that accurately reflects the reason for the failure. This can help the client understand why the request failed and take appropriate action.
 
-
 ## What status code does a successful POST request return?
 
 A successful `POST` request should return a HTTP status code of 201 (Created) to indicate that the server successfully created a new resource based on the request. The server should also include a `Location` header in the response to specify the URI of the newly created resource.
 
 Here's an example of a simple Express route handler that returns a 201 status code for a successful `POST` request:
 
-```
+```post
 app.post('/books', (req, res) => {
   const newBook = req.body;
   
@@ -382,7 +386,7 @@ Unlike other HTTP methods such as GET and POST, a `DELETE` request does not typi
 
 Here's an example of a simple Express route handler that returns a 204 status code for a successful `DELETE` request:
 
-```
+```delete
 app.delete('/books/:id', (req, res) => {
   const bookId = req.params.id;
   
