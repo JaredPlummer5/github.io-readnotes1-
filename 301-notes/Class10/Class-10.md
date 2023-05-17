@@ -81,3 +81,64 @@ The call stack would look like this:
 When `secondFunction` completes its execution, it is popped off from the call stack, and the control goes back to `firstFunction`. Similarly, when `firstFunction` completes, it is popped off from the call stack, and the control goes back to `main`. Finally, when `main` finishes executing, it is also popped off from the call stack, and the program ends.
 
 This example demonstrates how function calls are added to the call stack and executed in a Last-In, First-Out (LIFO) order.
+
+## JavaScript error messages
+
+Sure! Here are the answers to your questions along with code snippets:
+
+1. What is a 'reference error'?
+
+    A 'ReferenceError' occurs when you try to use a variable that is not declared or is not within the scope. It indicates that the interpreter cannot find a reference to the variable.
+
+    ```
+    console.log(nonExistentVariable); // ReferenceError: nonExistentVariable is not defined
+    ```
+
+2. What is a 'syntax error'?
+
+    A 'SyntaxError' occurs when you have a mistake in the syntax of your code. It means that the code is not valid according to the language grammar rules.
+
+
+    ```
+    console.log('Hello, World!; // SyntaxError: Unexpected token ';'
+    ```
+
+3. What is a 'range error'?
+
+    A 'RangeError' occurs when you try to manipulate a numeric value that is outside the valid range. It usually happens with functions like `Number.toFixed()` or `Array.length`.
+
+    ```
+    const array = [1, 2, 3];
+    array.length = -1; // RangeError: Invalid array length
+    ```
+
+4. What is a 'type error'?
+
+    A 'TypeError' occurs when you perform an operation on a value of the wrong type. It indicates that the value's type is incompatible with the operation being performed.
+
+    ```
+    const number = 42;
+    number.toUpperCase(); // TypeError: number.toUpperCase is not a function
+    ```
+
+5. What is a 'breakpoint'?
+
+    A 'breakpoint' is a debugging feature that allows you to pause the execution of your code at a specific line or condition. It helps you inspect the program's state and variables at that point in order to understand and debug issues.
+
+6. What does the word 'debugger' do in your code?
+
+    The 'debugger' keyword is a built-in JavaScript statement that triggers a breakpoint in your code. When the debugger encounters the 'debugger' statement, it will pause the execution at that line, allowing you to step through the code and inspect variables and values.
+
+    ```
+    function calculateSum(a, b) {
+      debugger; // Pause execution here
+      return a + b;
+    }
+
+    const result = calculateSum(2, 3);
+    console.log(result);
+    ```
+
+#### Debugger
+
+When you run the code with the 'debugger' statement, it will pause at that line, and you can use your browser's developer tools or a dedicated IDE to step through the code and analyze the program's state.
