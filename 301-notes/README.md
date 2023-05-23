@@ -21,3 +21,5 @@
 [Class 10](Class10/Class-10.md)
 
 [Class 11](Class11/Class-11.md)
+
+[Class 12](Class12/Class-12.md)
