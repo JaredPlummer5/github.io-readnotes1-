@@ -4,3 +4,4 @@
 
 [Class 01](Class01/Class1.md)
 
+[Class 02](Class02/Class2.md)
