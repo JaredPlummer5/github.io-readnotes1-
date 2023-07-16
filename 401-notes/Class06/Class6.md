@@ -1,7 +1,5 @@
 # Inheritance, Abstract, Polymorphism & OOP Principles
 
-Certainly! Here are the updated markdown notes with code snippets:
-
 ### Object-Oriented programming (C#)
 
 - C# is an object-oriented programming language.
