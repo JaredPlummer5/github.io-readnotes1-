@@ -13,3 +13,5 @@
 [Class 05](Class05/Class5.md)
 
 [Class 06](Class06/Class6.md)
+
+[Class 07](Class07/Class7.md)
