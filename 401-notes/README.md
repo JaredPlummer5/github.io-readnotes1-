@@ -19,3 +19,7 @@
 [Class 08](Class08/Class8.md)
 
 [Class 09](Class09/Class9.md)
+
+[Class 10](Class10/Class-10.md)
+
+[Class 11](Class11/Class-11.md)
